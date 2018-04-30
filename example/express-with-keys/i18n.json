@@ -1,0 +1,20 @@
+{
+	"en": {
+		"key1": "Example",
+		"key2": "This is a text",
+		"key3": "with link",
+		"key4": "Main page"
+	},
+	"de": {
+		"key1": "Beispiel",
+		"key2": "Das ist ein Text",
+		"key3": "mit Link",
+		"key4": "Hauptseite"
+	},
+	"hu": {
+		"key1": "Példa",
+		"key2": "Ez egy szöveg",
+		"key3": "linkkel",
+		"key4": "Főoldal"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"de": {
+		"Example": "Beispiel",
+		"This is a text": "Das ist ein Text",
+		"with link": "mit Link",
+		"Main page": "Hauptseite"
+	},
+	"hu": {
+		"Example": "Példa",
+		"This is a text": "Ez egy szöveg",
+		"with link": "linkkel",
+		"Main page": "Főoldal"
+	}
+}

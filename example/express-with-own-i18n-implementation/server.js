@@ -10,7 +10,7 @@ function myI18nImplementation(text /* , language */) {
 
 const app = require('express')();
 const debug = require('debug')('pug-i18n-postparse:server');
-const pugI18nPostparse = require('../..'); // const pugI18nPostparse = require('pug-i18n-postparse');
+const pugI18nPostparse = require('pug-i18n-postparse');
 
 app.set('view engine', 'pug');
 app.set('views', __dirname); // or your views directory

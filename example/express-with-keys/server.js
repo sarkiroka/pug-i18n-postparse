@@ -5,7 +5,7 @@
 const app = require('express')();
 const debug = require('debug')('pug-i18n-postparse:server');
 const path = require('path');
-const pugI18nPostparse = require('../..'); // const pugI18nPostparse = require('pug-i18n-postparse');
+const pugI18nPostparse = require('pug-i18n-postparse');
 
 const languageFilePath = path.join(__dirname, 'i18n.json');
 

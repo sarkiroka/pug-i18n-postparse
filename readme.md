@@ -111,7 +111,7 @@ app.get('/', function (req, res, next) {
 app.listen(3000);
 ```
 
-You can use your own *i18n* implementation:
+You can use your **own** i18n implementation:
 
 ```js
 function myI18nImplementation(text, language){
@@ -133,6 +133,19 @@ app.get('/', function (req, res, next) {
 });
 
 app.listen(3000);
+```
+
+The result is:
+
+```html
+<html>
+    <head>
+        <title>Marklar</title>
+    </head>
+    <body>
+        <p>Marklar <a href="/" title="Marklar">Marklar</a></p>
+    </body>
+</html>
 ```
 
 See the [examples](https://github.com/sarkiroka/pug-i18n-postparse/tree/master/example)

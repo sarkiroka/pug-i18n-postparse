@@ -23,7 +23,7 @@ html
             a(href="/", title="Main page")  with link
 ```
 
-![alt text](./i18n.jpg "so simple")
+![so simple](https://raw.githubusercontent.com/sarkiroka/pug-i18n-postparse/master/i18n.jpg "so simple")
 
 
 Define the translation json
@@ -135,4 +135,4 @@ app.get('/', function (req, res, next) {
 app.listen(3000);
 ```
 
-See the [examples](./example)
+See the [examples](https://github.com/sarkiroka/pug-i18n-postparse/tree/master/example)
